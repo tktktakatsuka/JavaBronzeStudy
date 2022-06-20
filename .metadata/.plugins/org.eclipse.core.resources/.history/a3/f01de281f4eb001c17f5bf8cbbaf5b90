@@ -1,0 +1,18 @@
+
+public class Main_11 {
+	private String name;
+	private int price;
+	public String TMP = "sample";
+			public Sample() {
+		
+	}
+	public Sample(String name) {
+		this.name =name;
+		
+	}
+	public void print() {
+		System.out.println(name + ":" + price)
+	}
+	
+
+}

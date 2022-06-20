@@ -1,0 +1,35 @@
+
+ class SuperClass {
+	 
+	void methodA() {
+	}
+	void methodB(int a) {	
+	}
+	int methodC(int a,int b) {
+		return 0;
+	}
+	int methodD(int a) {
+		return 0;
+	}
+
+}
+
+class SubClass extends SuperClass{
+	
+	public void methodA() {
+		super();
+		System.out.println("methodA");
+	}
+	
+	public int methodD(int i) {
+		return 1;
+	}
+}
+
+public class Main_6{
+	public static void main(String[] args) {
+		SubClass subClass = new SubClass();
+		subClass.methodA();
+	}
+	
+}

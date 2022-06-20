@@ -1,0 +1,17 @@
+
+public class Main_35 {
+static int id;
+String name;
+
+	
+
+static void printInfo() {
+System.out.println(id+":"+name);
+}
+
+
+public static void main(String args[]) {
+	Main_35 n = new Main_35();
+	Main_35.printInfo();
+}
+}

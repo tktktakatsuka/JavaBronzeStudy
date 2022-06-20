@@ -1,0 +1,18 @@
+package test;
+
+packege test;
+
+public class AccountFactory extends Factory{
+	Private List owners = new ArrayList();
+	
+	
+	Protected void registerProduct(Product product) {
+		owners.add(((Account)product).getOwner());
+	}
+
+	public List getOwners() {
+		return owners;
+	}
+	
+
+}

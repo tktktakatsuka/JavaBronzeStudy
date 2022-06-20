@@ -1,0 +1,23 @@
+
+ class Sample {
+	void methodA() {}
+	void methodB(int a) {}
+	
+	int methodC(int a,int b) {
+		return 0;
+		
+	}
+	int methodD(int a) {
+		return 0;
+	}
+
+}
+
+public class Main_6 extends Sample{
+	Sample sample = new Sample();
+	public void methodA() {
+	}
+	
+	
+	
+}

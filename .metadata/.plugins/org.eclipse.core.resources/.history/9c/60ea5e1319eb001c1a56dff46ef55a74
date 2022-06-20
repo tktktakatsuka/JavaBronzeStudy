@@ -1,0 +1,8 @@
+
+public class Factory {
+
+	public staic Product create(String param) {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}

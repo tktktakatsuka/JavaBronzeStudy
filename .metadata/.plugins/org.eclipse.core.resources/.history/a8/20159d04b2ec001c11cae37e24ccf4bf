@@ -1,0 +1,5 @@
+
+public interface Main_16 {
+	public void setVal(String val);
+
+}

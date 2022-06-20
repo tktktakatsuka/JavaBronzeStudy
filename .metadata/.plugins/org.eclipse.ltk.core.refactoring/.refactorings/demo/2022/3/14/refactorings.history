@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;DemoApplicationTests.class&apos; を &apos;gradle&apos; に移動" description="&apos;DemoApplicationTests.class&apos; を &apos;gradle&apos; に移動" destination="gradle" element1="bin/test/com/example/demo/DemoApplicationTests.class" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1648733724887" updateReferences="true"/>
+</session>

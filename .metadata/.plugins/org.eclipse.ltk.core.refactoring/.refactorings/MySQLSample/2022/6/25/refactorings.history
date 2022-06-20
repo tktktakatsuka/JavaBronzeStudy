@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;MySQLSample/src/DbSample.java&apos; を &apos;MysqlTest.java&apos; に変更します" description="リソース &apos;DbSample.java&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DbSample.java" name="MysqlTest.java" stamp="1655478781707" updateReferences="true"/>
+</session>

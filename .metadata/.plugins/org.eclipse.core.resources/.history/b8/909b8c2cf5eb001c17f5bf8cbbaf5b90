@@ -1,0 +1,8 @@
+
+public class Main_13 {
+	public static void main(String[] args) {
+		for(int i = 3; i<i++; i++) {
+			System.out.println("a");
+		}
+	}
+}

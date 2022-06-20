@@ -1,0 +1,34 @@
+
+interface Calc1 {
+	public String STR ="足し算";
+	public int A =3;
+	public int B =6;
+	
+	void method1();
+	void method2();
+	void method3();
+}
+
+class Add implements Calc1{
+	public void method1() {
+		System.out.println(STR+"をします");
+		
+	}
+
+	public void method2(String str) {	
+		System.out.println(str+"をします");
+		
+	}
+
+	@Override
+	public void method3() {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+	
+	
+	
+	
+
+	
+}

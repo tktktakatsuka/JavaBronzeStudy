@@ -1,0 +1,14 @@
+
+public class Main_6 {
+	void methodA() {}
+	void methodB(int a) {}
+	
+	int methodC(int a,int b) {
+		return 0;
+		
+	}
+	int methodD(int a) {
+		return 0;
+	}
+
+}
