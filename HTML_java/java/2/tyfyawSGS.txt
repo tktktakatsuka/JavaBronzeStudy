@@ -1,0 +1,2 @@
+多次元配列とは
+https://www.javadrive.jp/start/array/index7.html
