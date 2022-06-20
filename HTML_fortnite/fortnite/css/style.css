@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  header {
+    
+  }
+  .container {
+    display: flex;
+  }
+  .main {
+    width: 70%;
+  }
+  .side {
+    background: rgb(174, 231, 166);
+    width: 30%;
+  }
+  footer {
+    
+  }
+  @media (max-width: 600px){
+  .container {
+    flex-direction: column;
+  }
+  .main,
+  .side {
+    width: 100%;
+  }
+}

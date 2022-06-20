@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*header設定*/
+#header {
+    position: relative;
+    /*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;
+    /*高さを全画面にあわせる*/
+}
+
+.video_wrapper {
+    z-index: -1;
+    /*最背面に設定*/
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 半分載せてる */
+.video_wrapper>video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.Message {
+    /*要素の配置*/
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 0 15px #666;
+    top: 20%;
+    left: 40%;
+
+}
+
+
+
+.GameWith {
+    /*要素の配置*/
+    position: absolute;
+    /*要素を天地中央寄せ*/
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /*見た目の調整*/
+    color: rgb(47, 49, 82);
+    text-shadow: 0 0 15px rgb(35, 57, 105);
+}
+
+/* 色の指定 */
+a {
+    text-decoration: none;
+    color: #4363aa;
+    /* 今回は#000000を指定していますが、好きな色を指定できます */
+}

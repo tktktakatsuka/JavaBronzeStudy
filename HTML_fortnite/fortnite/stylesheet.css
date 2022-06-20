@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+iframe{   
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.iframe:hover {
+    opacity: 0.7;
+    color: white;
+
+}
+
+
+
+h1{
+    color:white;
+}
+
+/* 2カラムサイトにする */
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+/* 左側を少し開ける */
+.main, .side {
+    padding: 10px;
+}
+
+/* 左側を少し開ける */
+.main {
+    background: rgb(225, 235, 135);;
+    width: 65%;
+    margin-right: 20px;
+}
+
+/* 右側を少し開ける */
+.side {
+    background: rgb(135, 235, 202);
+    width: 25%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
